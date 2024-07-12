@@ -18,7 +18,7 @@ if "past" not in st.session_state:
 
 chat=ChatGroq(
     model_name="Llama3-70b-8192",temperature=0.5,
-    api_key=st.secrets['api_key'],
+    api_key="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",
     max_tokens=500,
     model_kwargs={
                     "top_p": 1,
